@@ -1,0 +1,216 @@
+2023/03/20 14:27:02 [emerg] 8#8: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:27:05 [emerg] 7#7: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:27:06 [emerg] 7#7: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:27:07 [emerg] 8#8: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:27:09 [emerg] 8#8: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:27:12 [emerg] 9#9: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:27:16 [emerg] 7#7: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:27:24 [emerg] 8#8: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:27:38 [emerg] 8#8: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:28:05 [emerg] 8#8: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 14:28:41 [notice] 8#8: using the "epoll" event method
+2023/03/20 14:28:41 [notice] 8#8: nginx/1.23.3
+2023/03/20 14:28:41 [notice] 8#8: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 14:28:41 [notice] 8#8: OS: Linux 5.4.0-47-generic
+2023/03/20 14:28:41 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 14:28:41 [notice] 8#8: start worker processes
+2023/03/20 14:28:41 [notice] 8#8: start worker process 10
+2023/03/20 14:28:41 [notice] 8#8: start worker process 11
+2023/03/20 14:30:57 [error] 11#11: *1 open() "/var/www/certbot/.well-known/acme-challenge/index.html" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /.well-known/acme-challenge/index.html HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 14:31:22 [error] 11#11: *1 "/var/www/certbot/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 14:36:06 [error] 10#10: *31 open() "/var/www/certbot/.well-known/acme-challenge/index.html" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /.well-known/acme-challenge/index.html HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 14:37:21 [notice] 8#8: using the "epoll" event method
+2023/03/20 14:37:21 [notice] 8#8: nginx/1.23.3
+2023/03/20 14:37:21 [notice] 8#8: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 14:37:21 [notice] 8#8: OS: Linux 5.4.0-47-generic
+2023/03/20 14:37:21 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 14:37:21 [notice] 8#8: start worker processes
+2023/03/20 14:37:21 [notice] 8#8: start worker process 10
+2023/03/20 14:37:21 [notice] 8#8: start worker process 11
+2023/03/20 14:37:39 [error] 10#10: *1 open() "/var/www/certbot/s/search/audio/failure.mp3" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/search/audio/failure.mp3 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:39 [error] 11#11: *2 open() "/var/www/certbot/s/search/audio/no_input.mp3" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/search/audio/no_input.mp3 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:39 [error] 10#10: *4 open() "/var/www/certbot/s/search/audio/success.mp3" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/search/audio/success.mp3 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:39 [error] 10#10: *3 open() "/var/www/certbot/s/search/audio/open.mp3" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/search/audio/open.mp3 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:41 [error] 10#10: *4 open() "/var/www/certbot/youtubei/v1/feedback" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "POST /youtubei/v1/feedback?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8&prettyPrint=false HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:42 [error] 10#10: *4 open() "/var/www/certbot/s/player/59acb1f3/player_ias.vflset/ja_JP/base.js" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/player/59acb1f3/player_ias.vflset/ja_JP/base.js HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:42 [error] 10#10: *3 open() "/var/www/certbot/s/player/59acb1f3/www-player.css" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/player/59acb1f3/www-player.css HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:50 [error] 10#10: *4 open() "/var/www/certbot/youtubei/v1/log_event" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "POST /youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:53 [error] 10#10: *1 open() "/var/www/certbot/s/search/audio/success.mp3" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/search/audio/success.mp3 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:53 [error] 10#10: *4 open() "/var/www/certbot/s/search/audio/no_input.mp3" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/search/audio/no_input.mp3 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:53 [error] 11#11: *2 open() "/var/www/certbot/s/search/audio/open.mp3" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/search/audio/open.mp3 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:53 [error] 10#10: *3 open() "/var/www/certbot/s/search/audio/failure.mp3" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/search/audio/failure.mp3 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:55 [error] 11#11: *2 open() "/var/www/certbot/youtubei/v1/browse" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "POST /youtubei/v1/browse?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8&prettyPrint=false HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:57 [error] 11#11: *2 open() "/var/www/certbot/youtubei/v1/log_event" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "POST /youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:57 [error] 11#11: *2 open() "/var/www/certbot/generate_204" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "HEAD /generate_204 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:57 [error] 11#11: *2 open() "/var/www/certbot/youtubei/v1/log_event" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "POST /youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:57 [error] 11#11: *2 open() "/var/www/certbot/s/player/59acb1f3/player_ias.vflset/ja_JP/base.js" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/player/59acb1f3/player_ias.vflset/ja_JP/base.js HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:57 [error] 10#10: *3 open() "/var/www/certbot/s/player/59acb1f3/www-player.css" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /s/player/59acb1f3/www-player.css HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:57 [error] 10#10: *4 open() "/var/www/certbot/generate_204" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "HEAD /generate_204 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:37:59 [error] 10#10: *4 open() "/var/www/certbot/youtubei/v1/log_event" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "POST /youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:38:02 [error] 10#10: *4 open() "/var/www/certbot/youtubei/v1/log_event" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "POST /youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:38:02 [error] 10#10: *4 open() "/var/www/certbot/generate_204" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "HEAD /generate_204 HTTP/1.1", host: "izumi.myrating.cn", referrer: "http://izumi.myrating.cn/"
+2023/03/20 14:43:53 [error] 10#10: *18 "/var/www/certbot/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 14:44:07 [error] 10#10: *18 open() "/var/www/certbot/.well-known/acme-challenge/index.html" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /.well-known/acme-challenge/index.html HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 14:44:37 [notice] 7#7: using the "epoll" event method
+2023/03/20 14:44:37 [notice] 7#7: nginx/1.23.3
+2023/03/20 14:44:37 [notice] 7#7: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 14:44:37 [notice] 7#7: OS: Linux 5.4.0-47-generic
+2023/03/20 14:44:37 [notice] 7#7: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 14:44:37 [notice] 7#7: start worker processes
+2023/03/20 14:44:37 [notice] 7#7: start worker process 9
+2023/03/20 14:44:37 [notice] 7#7: start worker process 10
+2023/03/20 14:45:04 [error] 9#9: *1 open() "/var/www/certbot/.well-known/acme-challenge/index.html" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /.well-known/acme-challenge/index.html HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 14:46:03 [error] 9#9: *1 open() "/var/www/certbot/.well-known/acme-challenge/index.html" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /.well-known/acme-challenge/index.html HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 14:51:09 [notice] 8#8: using the "epoll" event method
+2023/03/20 14:51:09 [notice] 8#8: nginx/1.23.3
+2023/03/20 14:51:09 [notice] 8#8: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 14:51:09 [notice] 8#8: OS: Linux 5.4.0-47-generic
+2023/03/20 14:51:09 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 14:51:09 [notice] 8#8: start worker processes
+2023/03/20 14:51:09 [notice] 8#8: start worker process 10
+2023/03/20 14:51:09 [notice] 8#8: start worker process 11
+2023/03/20 14:51:27 [notice] 12#12: signal process started
+2023/03/20 14:51:27 [notice] 8#8: signal 1 (SIGHUP) received from 12, reconfiguring
+2023/03/20 14:51:27 [notice] 8#8: reconfiguring
+2023/03/20 14:51:27 [notice] 8#8: using the "epoll" event method
+2023/03/20 14:51:27 [notice] 8#8: start worker processes
+2023/03/20 14:51:27 [notice] 8#8: start worker process 18
+2023/03/20 14:51:27 [notice] 8#8: start worker process 19
+2023/03/20 14:51:27 [notice] 10#10: gracefully shutting down
+2023/03/20 14:51:27 [notice] 10#10: exiting
+2023/03/20 14:51:27 [notice] 10#10: exit
+2023/03/20 14:51:27 [notice] 11#11: gracefully shutting down
+2023/03/20 14:51:27 [notice] 11#11: exiting
+2023/03/20 14:51:27 [notice] 11#11: exit
+2023/03/20 14:51:27 [notice] 8#8: signal 17 (SIGCHLD) received from 11
+2023/03/20 14:51:27 [notice] 8#8: worker process 11 exited with code 0
+2023/03/20 14:51:27 [notice] 8#8: signal 29 (SIGIO) received
+2023/03/20 14:51:27 [notice] 8#8: signal 17 (SIGCHLD) received from 10
+2023/03/20 14:51:27 [notice] 8#8: worker process 10 exited with code 0
+2023/03/20 14:51:27 [notice] 8#8: signal 29 (SIGIO) received
+2023/03/20 14:57:14 [error] 18#18: *3 directory index of "/var/www/certbot/" is forbidden, client: 8.222.203.92, server: , request: "GET http://passport.baidu.com/ HTTP/1.1", host: "passport.baidu.com:80"
+2023/03/20 14:59:45 [notice] 9#9: using the "epoll" event method
+2023/03/20 14:59:45 [notice] 9#9: nginx/1.23.3
+2023/03/20 14:59:45 [notice] 9#9: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 14:59:45 [notice] 9#9: OS: Linux 5.4.0-47-generic
+2023/03/20 14:59:45 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 14:59:45 [notice] 9#9: start worker processes
+2023/03/20 14:59:45 [notice] 9#9: start worker process 11
+2023/03/20 14:59:45 [notice] 9#9: start worker process 12
+2023/03/20 14:59:59 [emerg] 13#13: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/03/20 15:00:41 [notice] 20#20: signal process started
+2023/03/20 15:00:41 [notice] 9#9: signal 1 (SIGHUP) received from 20, reconfiguring
+2023/03/20 15:00:41 [notice] 9#9: reconfiguring
+2023/03/20 15:00:41 [notice] 9#9: using the "epoll" event method
+2023/03/20 15:00:41 [notice] 9#9: start worker processes
+2023/03/20 15:00:41 [notice] 9#9: start worker process 26
+2023/03/20 15:00:41 [notice] 9#9: start worker process 27
+2023/03/20 15:00:41 [notice] 12#12: gracefully shutting down
+2023/03/20 15:00:41 [notice] 11#11: gracefully shutting down
+2023/03/20 15:00:41 [notice] 12#12: exiting
+2023/03/20 15:00:41 [notice] 11#11: exiting
+2023/03/20 15:00:41 [notice] 11#11: exit
+2023/03/20 15:00:41 [notice] 12#12: exit
+2023/03/20 15:00:41 [notice] 9#9: signal 17 (SIGCHLD) received from 12
+2023/03/20 15:00:41 [notice] 9#9: worker process 12 exited with code 0
+2023/03/20 15:00:41 [notice] 9#9: signal 29 (SIGIO) received
+2023/03/20 15:00:41 [notice] 9#9: signal 17 (SIGCHLD) received from 11
+2023/03/20 15:00:41 [notice] 9#9: worker process 11 exited with code 0
+2023/03/20 15:00:41 [notice] 9#9: signal 29 (SIGIO) received
+2023/03/20 15:02:13 [notice] 28#28: signal process started
+2023/03/20 15:02:14 [notice] 9#9: signal 1 (SIGHUP) received from 28, reconfiguring
+2023/03/20 15:02:14 [notice] 9#9: reconfiguring
+2023/03/20 15:02:14 [notice] 9#9: using the "epoll" event method
+2023/03/20 15:02:14 [notice] 9#9: start worker processes
+2023/03/20 15:02:14 [notice] 9#9: start worker process 34
+2023/03/20 15:02:14 [notice] 9#9: start worker process 35
+2023/03/20 15:02:16 [notice] 27#27: gracefully shutting down
+2023/03/20 15:02:16 [notice] 27#27: exiting
+2023/03/20 15:02:16 [notice] 27#27: exit
+2023/03/20 15:02:16 [notice] 26#26: gracefully shutting down
+2023/03/20 15:02:16 [notice] 26#26: exiting
+2023/03/20 15:02:16 [notice] 26#26: exit
+2023/03/20 15:02:16 [notice] 9#9: signal 17 (SIGCHLD) received from 27
+2023/03/20 15:02:16 [notice] 9#9: worker process 27 exited with code 0
+2023/03/20 15:02:16 [notice] 9#9: signal 29 (SIGIO) received
+2023/03/20 15:02:16 [notice] 9#9: signal 17 (SIGCHLD) received from 26
+2023/03/20 15:02:16 [notice] 9#9: worker process 26 exited with code 0
+2023/03/20 15:02:16 [notice] 9#9: signal 29 (SIGIO) received
+2023/03/20 15:04:24 [notice] 8#8: using the "epoll" event method
+2023/03/20 15:04:24 [notice] 8#8: nginx/1.23.3
+2023/03/20 15:04:24 [notice] 8#8: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 15:04:24 [notice] 8#8: OS: Linux 5.4.0-47-generic
+2023/03/20 15:04:24 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 15:04:24 [notice] 8#8: start worker processes
+2023/03/20 15:04:24 [notice] 8#8: start worker process 10
+2023/03/20 15:04:24 [notice] 8#8: start worker process 11
+2023/03/20 15:11:09 [notice] 9#9: using the "epoll" event method
+2023/03/20 15:11:09 [notice] 9#9: nginx/1.23.3
+2023/03/20 15:11:09 [notice] 9#9: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 15:11:09 [notice] 9#9: OS: Linux 5.4.0-47-generic
+2023/03/20 15:11:09 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 15:11:09 [notice] 9#9: start worker processes
+2023/03/20 15:11:09 [notice] 9#9: start worker process 11
+2023/03/20 15:11:09 [notice] 9#9: start worker process 12
+2023/03/20 15:17:34 [notice] 8#8: using the "epoll" event method
+2023/03/20 15:17:34 [notice] 8#8: nginx/1.23.3
+2023/03/20 15:17:34 [notice] 8#8: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 15:17:34 [notice] 8#8: OS: Linux 5.4.0-47-generic
+2023/03/20 15:17:34 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 15:17:34 [notice] 8#8: start worker processes
+2023/03/20 15:17:34 [notice] 8#8: start worker process 10
+2023/03/20 15:17:34 [notice] 8#8: start worker process 11
+2023/03/20 15:17:41 [error] 10#10: *1 open() "/etc/nginx/html/proxy/https:/www.google.com.com" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /proxy/https://www.google.com.com HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 15:19:07 [notice] 12#12: signal process started
+2023/03/20 15:19:07 [notice] 8#8: signal 1 (SIGHUP) received from 12, reconfiguring
+2023/03/20 15:19:07 [notice] 8#8: reconfiguring
+2023/03/20 15:19:07 [notice] 8#8: using the "epoll" event method
+2023/03/20 15:19:07 [notice] 8#8: start worker processes
+2023/03/20 15:19:07 [notice] 8#8: start worker process 18
+2023/03/20 15:19:07 [notice] 8#8: start worker process 19
+2023/03/20 15:19:07 [notice] 10#10: gracefully shutting down
+2023/03/20 15:19:07 [notice] 10#10: exiting
+2023/03/20 15:19:07 [notice] 10#10: exit
+2023/03/20 15:19:07 [notice] 11#11: gracefully shutting down
+2023/03/20 15:19:07 [notice] 11#11: exiting
+2023/03/20 15:19:07 [notice] 11#11: exit
+2023/03/20 15:19:07 [notice] 8#8: signal 17 (SIGCHLD) received from 11
+2023/03/20 15:19:07 [notice] 8#8: worker process 10 exited with code 0
+2023/03/20 15:19:07 [notice] 8#8: worker process 11 exited with code 0
+2023/03/20 15:19:07 [notice] 8#8: signal 29 (SIGIO) received
+2023/03/20 15:19:11 [error] 19#19: *6 open() "/etc/nginx/html/proxy/https:/www.google.com.com" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /proxy/https://www.google.com.com HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 15:19:34 [notice] 8#8: using the "epoll" event method
+2023/03/20 15:19:34 [notice] 8#8: nginx/1.23.3
+2023/03/20 15:19:34 [notice] 8#8: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 15:19:34 [notice] 8#8: OS: Linux 5.4.0-47-generic
+2023/03/20 15:19:34 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 15:19:34 [notice] 8#8: start worker processes
+2023/03/20 15:19:34 [notice] 8#8: start worker process 10
+2023/03/20 15:19:34 [notice] 8#8: start worker process 11
+2023/03/20 15:19:45 [error] 10#10: *2 open() "/etc/nginx/html/proxy/https:/www.google.com.com" failed (2: No such file or directory), client: 113.13.100.131, server: , request: "GET /proxy/https://www.google.com.com HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 15:23:51 [notice] 8#8: using the "epoll" event method
+2023/03/20 15:23:51 [notice] 8#8: nginx/1.23.3
+2023/03/20 15:23:51 [notice] 8#8: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 15:23:51 [notice] 8#8: OS: Linux 5.4.0-47-generic
+2023/03/20 15:23:51 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 15:23:51 [notice] 8#8: start worker processes
+2023/03/20 15:23:51 [notice] 8#8: start worker process 10
+2023/03/20 15:23:51 [notice] 8#8: start worker process 11
+2023/03/20 15:25:46 [notice] 8#8: using the "epoll" event method
+2023/03/20 15:25:46 [notice] 8#8: nginx/1.23.3
+2023/03/20 15:25:46 [notice] 8#8: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 15:25:46 [notice] 8#8: OS: Linux 5.4.0-47-generic
+2023/03/20 15:25:46 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 15:25:46 [notice] 8#8: start worker processes
+2023/03/20 15:25:46 [notice] 8#8: start worker process 10
+2023/03/20 15:25:46 [notice] 8#8: start worker process 11
+2023/03/20 15:26:56 [error] 10#10: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 113.13.100.131, server: , request: "GET / HTTP/1.1", host: "izumi.myrating.cn"
+2023/03/20 15:27:46 [notice] 9#9: using the "epoll" event method
+2023/03/20 15:27:46 [notice] 9#9: nginx/1.23.3
+2023/03/20 15:27:46 [notice] 9#9: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/03/20 15:27:46 [notice] 9#9: OS: Linux 5.4.0-47-generic
+2023/03/20 15:27:46 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/03/20 15:27:46 [notice] 9#9: start worker processes
+2023/03/20 15:27:46 [notice] 9#9: start worker process 11
+2023/03/20 15:27:46 [notice] 9#9: start worker process 12
+2023/03/20 15:59:04 [error] 11#11: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 183.136.225.42, server: , request: "GET / HTTP/1.1", upstream: "http://172.24.60.58:8085/", host: "47.100.131.168"
